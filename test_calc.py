@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
     ('03. Sum unique number',         'C12347',    2,         [2]),
     ('04. Sum null numbers',          'C12347',    0,          []),
     ('05. Sum two numbers decimals',  'C12345',  6.6,   [2.2,4.4]),
-    ('06. Sum two numbers negatives', 'C12345',   6,     [-2,-4]),
+    ('06. Sum two numbers negatives', 'C12345',   -6,     [-2,-4]),
     ])
 def test_sum(test, id, result, numbers):  
     logger.info(f'<<<BARTIE>>> [{id}] {test}')
